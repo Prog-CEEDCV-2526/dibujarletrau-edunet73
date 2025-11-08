@@ -17,9 +17,16 @@ public class DibujarLetraU {
         // COMPLETA AQUÍ: usa bucles para poner '*' en la primera y última columna
         // excepto en la última fila
         // Ejemplo: matriz[i][0] = '*'; matriz[i][columnas - 1] = '*';
+        for (int i = 0; i < filas-1; i++) {
+            matriz[i][0] = '*';
+            matriz[i][columnas-1] = '*';
+        }
 
         // Paso 4: Dibujar la base de la U (última fila)
         // COMPLETA AQUÍ: pon '*' en las columnas centrales de la última fila
+        for (int j = 1; j < columnas-1; j++) {
+            matriz[filas-1][j] = '*';
+        }
 
         // Paso 5: Mostrar la matriz en consola
         for (int i = 0; i < filas; i++) {
