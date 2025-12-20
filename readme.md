@@ -1,48 +1,30 @@
-# 🏰 Mansió Embruixada – Activitat de Programació
+# Exercici: Dibujar la lletra U
 
-Benvingut/da a l’activitat de la **Mansió Embruixada**.  
-En aquest repositori trobaràs l’estructura bàsica del projecte i els fitxers que has de modificar per completar l’exercici.
+Completa el codi en `DibujarLetraU.java` perquè es dibuixe la lletra U en una matriu de 7x5 utilitzant arrays bidimensionals.
 
----
+## Objectius
+- Utilitzar arrays bidimensionals en Java.
+- Aplicar bucles `for` anidats.
+- Comprendre com representar gràfics simples en consola.
 
-## 📌 Què has de fer?
+## Requisits
+- La lletra U ha de tindre dues barres verticals i una base horitzontal.
+- Utilitza el caràcter `'*'` per a dibuixar i `' '` per als espais.
 
-1. Accedeix a: /src/main/java/gvaCEED/MansionEmbrujada_v0.java
-
-2. Modifica aquest fitxer segons les indicacions de l’activitat:  
-   - Completa el codi
-
-Este és **l’únic fitxer que s’avaluarà** automàticament.
-
----
-
-## 🟦 Avaluació automàtica (GitHub Actions)
-
-Cada vegada que envies canvis (*commit + push*):
-
-1. GitHub executarà les proves automàtiques.
-2. Es calcularà la teua nota.
-3. Podràs veure el resultat ací:
-
-👉 **GitHub → Actions → (últim workflow) → Summary**
-
-Baix del tot del *Build Summary* veuràs:
-
-- ✔ Tests superats  
-- ✔ Tests totals  
-- ⭐ **Nota final**
-
----
-## 📝 Recorda
-
-- Només cal modificar `MansionEmbrujada_v0.java`.
-- Si el programa no compila o no mostra l’eixida esperada, la nota serà baixa.
-- Revisa sempre la pestanya **Actions** després d’enviar els canvis.
+## Lliurament
+- Puja la teua solució al repositori abans de la data límit.
 
 ---
 
-## 💬 Dubtes?
+## 📢 IMPORTANT: Consulta la teua nota en GitHub Actions
 
-Pregunta al professorat.
+Cada vegada que puges el teu codi (push) al repositori, GitHub executarà automàticament els tests.
 
-Bona sort! 🍀
+👉 **Pots veure la teua nota entrant en la pestanya _Actions_ del repositori.**  
+Dins trobaràs el workflow **"Classroom Autograding"**, que mostrarà:
+
+- Tests superats  
+- Tests totals  
+- La teua nota sobre 10  
+
+La nota també apareix en el **Summary** del workflow.
